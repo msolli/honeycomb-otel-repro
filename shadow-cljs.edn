@@ -1,0 +1,7 @@
+{:deps     {:aliases [:dev]}
+ :dev-http {8090 "classpath:public"}
+ :builds
+ {:app
+  {:target  :browser
+   :modules {:main {:init-fn foo.dev/main}}
+   :dev     {:output-dir "dev-build/public/js"}}}}
