@@ -1,4 +1,6 @@
-(ns foo.dev)
+(ns foo.dev
+  (:require
+    ["@honeycombio/opentelemetry-web" :refer [HoneycombWebSDK]]))
 
 (defn main
   []
