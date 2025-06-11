@@ -23,3 +23,8 @@ Illegal variable reference before declaration: startTime
 --- node_modules/@opentelemetry/sdk-metrics/build/src/aggregator/ExponentialHistogram.js:54
 Illegal variable reference before declaration: startTime
 ```
+
+## How to reproduce
+
+1. Clone this repo
+2. `make shadow`
